@@ -26,7 +26,7 @@ describe 'form page' do
     visit new_coupon_path
 
     fill_in 'coupon_code', with: "YAYFREE"
-    fill_in 'coupon[store]', with: "Hobby Lobby"
+    fill_in 'store', with: "Hobby Lobby"
 
     click_on "Submit Coupon"
 
